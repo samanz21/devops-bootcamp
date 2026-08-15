@@ -1,0 +1,14 @@
+Cloudflare nameserver {
+ NS amy.ns.cloudflare.com
+ NS fnico.ns.cloudflare.com
+}
+
+URL {
+ Github-public{
+  https://samanz21.github.io/paws-CatSwiper/
+  https://paws.luqmansyakir.com/
+ }
+ Github-Private{
+  https://portfolio-private.luqmansyakir.com/
+ }
+}
