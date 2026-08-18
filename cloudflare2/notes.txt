@@ -1,0 +1,21 @@
+Public Ec2
+- has public ip, random assign by AWS on start or reboot
+- traffic is define in sg inbound and outbound
+
+
+Private Ec2
+- has no public ip
+- NEED NAT gateways to access internet
+- NEED AWS Elastic Ip(Pay AWS to Hold that IP)
+- traffic is block for all inbound and outbound
+- Need Cloudlfare Tunnel to Access App
+
+Proxied(orange)
+- trafic > edge < ec2 > ip hidden
+
+DNS only(grey)
+- traffic > ec2 > ip visible
+
+HTTPS
+- need paid certificate
+- can use Cloudflare certificate for free
